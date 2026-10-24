@@ -73,7 +73,7 @@ PRESETS = {
     "Reihenfolge kehrt sich um": {"netztyp": T_POWER, "n": DEFAULT_N, "c": DEFAULT_C, "seed": DEFAULT_SEED, "eps": 25, "mode": DEFAULT_MODE},
 }
 PRESET_HELP = {
-    "Vollständiger Graph: die Treppe (Voreinstellung)": "Jeder kennt jeden, zufällige Meinungen und Vertrauensradius 20 %: es bleiben zwei Lager (die Treppe: kleiner Radius, viele Lager; ab etwa 25 % ein Konsens).",
+    "Vollständiger Graph: die Treppe (Voreinstellung)": "Jeder kennt jeden, zufällige Meinungen und Vertrauensradius 20 %: es bleiben zwei Lager (die Treppe: kleiner Radius, viele Lager; bei etwa 25 % meist ein Konsens).",
     "Dünnes Netz: ein Block und viele Splitter": "Im dünnen Zufallsnetz mit Vertrauensradius 25 % bleibt ein großer Block, der Rest sind gestrandete Einzelne, die niemand im Vertrauensradius erreicht.",
     "Gleichabständig: der Konsens kehrt zurück": "Gleich weit verteilte Meinungen im vollständigen Graphen: bei 19 % gibt es Konsens, obwohl bei 20 % zwei Lager bleiben (Lorenz 2006).",
     "Zwei Lager bleiben": "Zwei Lager mit Abstand 0,5 und Vertrauensradius 30 %: sie erreichen einander nie.",
